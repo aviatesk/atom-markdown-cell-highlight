@@ -18,13 +18,13 @@ To install:
 
 ## config
 
-- `markdown-cell-highlight.targetScopes`: If specified, this package will highlight code cells with the specified languages scopes. By default (empty `Array`), it will highlight _every_ code cell even without language scope. E.g.: if you only want to highlight Julia code cells, you can set this config to `["source.embedded.julia"]`. Requires Atom to take an effect.
+- `markdown-cell-highlight.targetScopes`: If specified, this package will highlight code cells with the specified languages scopes. By default (empty `array`), it will highlight _every_ code cell even without language scope. E.g.: if you only want to highlight Julia code cells, you can set this config to `["source.embedded.julia"]`. Requires restarting Atom to take an effect.
 - `markdown-cell-highlight.markdownScopes`: Specifies grammar scopes that this package will consider as markdown files and try to highlight code cells. Set to `["text.md", "source.gfm", "source.weave.md", "source.pweave.md"]` by default.
 
 
 ## custom styling
 
-You can have custom styles (i.e. custom colors, mostly) via [your stylesheet]():
+You can have custom styles (i.e. custom colors, mostly) via [your stylesheet](https://flight-manual.atom.io/using-atom/sections/basic-customization/#style-tweaks):
 
 > .atom/styles.less
 

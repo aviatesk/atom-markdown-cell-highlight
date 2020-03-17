@@ -3,6 +3,7 @@
 import { Point, Range, CompositeDisposable, Disposable } from 'atom'
 
 const targetScopes = atom.config.get('markdown-cell-highlight.targetScopes')
+const isAll = targetScopes === 0
 
 function getCellRanges(editor) {
   const ranges = []
@@ -13,7 +14,7 @@ function getCellRanges(editor) {
     const bufferPosition = new Point(i, 0)
     const scopeDescriptor = editor.syntaxTreeScopeDescriptorForBufferPosition(bufferPosition)
     const scopes = scopeDescriptor.scopes
-    const cond = targetScopes.length === 0 ?
+    const cond = isAll ?
       scopes.some(s => s.startsWith('source.embedded')) :
       scopes.some(s => targetScopes.includes(s))
     if (cond) {

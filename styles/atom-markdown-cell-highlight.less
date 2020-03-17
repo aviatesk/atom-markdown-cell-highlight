@@ -1,0 +1,15 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+@import 'syntax-variables';
+
+@cell-background: fade(darken(@syntax-background-color, 75%), 15%);
+
+.line.markdown-cell-highlight {
+  background: @cell-background;
+}
+.line-number.markdown-cell-highlight {
+  background: @cell-background;
+}

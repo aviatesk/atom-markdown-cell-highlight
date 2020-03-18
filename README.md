@@ -18,7 +18,7 @@ To install:
 
 ## config
 
-- `markdown-cell-highlight.targetScopes`: If specified, this package will highlight code cells with the specified languages scopes. By default (empty `array`), it will highlight _every_ code cell even without language scope. E.g.: if you only want to highlight Julia code cells, you can set this config to `["source.embedded.julia"]`. Requires restarting Atom to take an effect.
+- `markdown-cell-highlight.targetScopes`: If specified, this package will highlight code cells with the specified languages scopes. By default (i.e. `["source.embedded"]`), it will highlight _every_ code cell even without language scope. E.g.: if you only want to highlight Julia code cells, you can modify this config into `["source.embedded.julia"]`.
 - `markdown-cell-highlight.markdownScopes`: Specifies grammar scopes that this package will consider as markdown files and try to highlight code cells. Set to `["text.md", "source.gfm", "source.weave.md", "source.pweave.md"]` by default.
 
 

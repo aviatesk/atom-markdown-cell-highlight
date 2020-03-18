@@ -21,8 +21,10 @@
     "targetScopes": {
       "title": "Target Scopes",
       "type": "array",
-      "default": [],
-      "description": "If specified, this package will highlight code cells with the specified languages scopes. By default (empty `array`), it will highlight _every_ code cell even without language scope. E.g.: if you _only_ want to highlight Julia code cells, you can set this config to `[\"source.embedded.julia\"]`. Requires restarting Atom to take an effect.",
+      "default": [
+        "source.embedded"
+      ],
+      "description": "If specified, this package will highlight code cells with the specified languages scopes. By default (i.e. `[\"source.embedded\"]`), it will highlight _every_ code cell even without language scope. E.g.: if you _only_ want to highlight Julia code cells, you can modify this config into `[\"source.embedded.julia\"]`.",
       "order": 1
     },
     "markdownScopes": {

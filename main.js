@@ -3,7 +3,7 @@
 import { Point, Range, CompositeDisposable, Disposable } from 'atom'
 
 const targetScopes = atom.config.get('markdown-cell-highlight.targetScopes')
-const isAll = targetScopes === 0
+const isAll = targetScopes.length === 0
 
 function getCellRanges(editor) {
   const ranges = []

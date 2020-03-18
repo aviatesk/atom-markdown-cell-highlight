@@ -14,7 +14,7 @@ To install:
 
 | [ariake-dark-syntax](https://github.com/pathtrk/ariake-dark-syntax)                                                          | [one-light syntax](https://github.com/atom/atom/tree/master/packages/one-light-syntax)                                     |
 |------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
-| ![ariake-dark-example](https://user-images.githubusercontent.com/40514306/76826555-224f6880-6860-11ea-99eb-61024ee9ff24.png) | ![one-light-example](https://user-images.githubusercontent.com/40514306/76826557-24b1c280-6860-11ea-99b6-7dc56fa65d16.png) |
+| ![ariake-dark-example](https://user-images.githubusercontent.com/40514306/77017592-38733b00-69be-11ea-843a-c12524b5e008.png) | ![one-light-example](https://user-images.githubusercontent.com/40514306/77017718-85571180-69be-11ea-9be7-9b7c9320fc19.png) |
 
 ## config
 

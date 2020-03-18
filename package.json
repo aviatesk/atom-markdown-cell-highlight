@@ -1,7 +1,7 @@
 {
   "name": "markdown-cell-highlight",
   "main": "./main",
-  "version": "0.1.2",
+  "version": "1.0.0",
   "description": "Highlight markdown code cells",
   "keywords": [
     "markdown",

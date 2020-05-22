@@ -22,9 +22,10 @@
       "title": "Target Scopes",
       "type": "array",
       "default": [
-        "source.embedded"
+        "source.embedded",
+        "text.embedded"
       ],
-      "description": "If specified, this package will highlight code cells with the specified languages scopes. By default (i.e. `[\"source.embedded\"]`), it will highlight _every_ code cell even without language scope. E.g.: if you _only_ want to highlight Julia code cells, you can modify this config into `[\"source.embedded.julia\"]`.",
+      "description": "If specified, this package will highlight code cells with the specified languages scopes. By default (i.e. `[\"source.embedded\", \"text.embedded\"]`), it will highlight _every_ code cell even without language scope. E.g.: if you _only_ want to highlight Julia code cells, you can modify this config into `[\"source.embedded.julia\"]`.",
       "order": 1
     },
     "markdownScopes": {
